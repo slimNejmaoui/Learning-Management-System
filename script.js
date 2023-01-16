@@ -1040,9 +1040,9 @@ function generateHeader() {
       content = `
        <li class="nav-item "><a class="nav-link " href="index.html">Home</a></li>
        <li class="nav-item"><a class="nav-link" href="#">Welcome ${connected.Firstname}${connected.Lastname}</a></li>
-       <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
-       <li class="nav-item"><a class="nav-link" href="students.html">participate</a></li>       
-       <li class="nav-item"><a class="nav-link" href="monespace.html">mon espace</a></li>   
+       <li class="nav-item"><a class="nav-link" href="courses.html">courses</a></li>
+       <li class="nav-item"><a class="nav-link" href="students.html">Dashboard</a></li>       
+       <li class="nav-item"><a class="nav-link" href="Profile.html">Profile</a></li>   
        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
        <li class="nav-item"><a class="nav-link" href="index.html" onclick="logout()">Logout</a></li>
        `
@@ -1051,11 +1051,11 @@ function generateHeader() {
       content = `
        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
        <li class="nav-item"><a class="nav-link" href="#">Welcome ${connected.Firstname}${connected.Lastname}</a></li>
-       <li class="nav-item"><a class="nav-link" href="monespaceprofessor.html">monespace</a></li>
-       <li class="nav-item"><a class="nav-link" href="professor.html">participants</a></li>
+       <li class="nav-item"><a class="nav-link" href=" profileProfessor.html">Profile</a></li>
+       <li class="nav-item"><a class="nav-link" href="professor.html">Dashboard</a></li>
        <li class="nav-item"><a class="nav-link" href="exercices.html">exercices</a></li>
-       <li class="nav-item"><a class="nav-link" href="addformation.html">Addformation</a></li>
-       <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
+       <li class="nav-item"><a class="nav-link" href="addcourse.html">AddCourse</a></li>
+       <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
        <li class="nav-item"><a class="nav-link" href="index.html" onclick="logout()">Logout</a></li>
        `
@@ -1064,8 +1064,8 @@ function generateHeader() {
       content = `
        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
        <li class="nav-item"><a class="nav-link" href="#">Welcome ${connected.Firstname}${connected.Lastname}</a></li>
-       <li class="nav-item"><a class="nav-link" href="admin.html">Administration</a></li>
-       <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
+       <li class="nav-item"><a class="nav-link" href="admin.html">Dashboard</a></li>
+       <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
        <li class="nav-item"><a class="nav-link"href="index.html" onclick="logout()">Logout</a></li>
        `
@@ -1075,7 +1075,7 @@ function generateHeader() {
   else {
     content = `
     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-    <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
+    <li class="nav-item"><a class="nav-link" href="courses.html">courses</a></li>
     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
     <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
     <li class="nav-item"><div class="dropdown mt-3">
