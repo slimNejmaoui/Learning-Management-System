@@ -16,6 +16,8 @@ Clone or download the repository to your local machine
 Open the index.html file in your web browser
 Sign up for an account or log in if you have an existing account
 Begin taking courses and managing your learning experience
+
+
 Usage
 Create a course by clicking the "Create Course" button in the navigation bar
 Manage users by clicking the "Users" button in the navigation bar
@@ -31,5 +33,8 @@ Responsive design for optimal user experience on different devices
 Option to upload and view course materials, such as PDFs or videos
 Option to send notifications to users
 Option to generate reports and analytics
+
+
+
 Authors
 Slim Nejmaoui
