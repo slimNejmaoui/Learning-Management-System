@@ -2,7 +2,7 @@ Learning Management System (LMS)
 Description
 This project is a Learning Management System (LMS) that allows users to register, login, and take online courses. It includes features such as creating courses, managing users and groups, managing grades and assignments, and an intuitive user interface.
 
-Built With
+Built With :
 
 HTML
 
@@ -15,13 +15,13 @@ Bootstrap
 
 Getting Started
 
-Prerequisites
+Prerequisites :
 
 A web browser
 
 A text editor (e.g. Sublime Text, Atom)
 
-Installation
+Installation :
 
 Clone or download the repository to your local machine
 
@@ -32,7 +32,7 @@ Sign up for an account or log in if you have an existing account
 Begin taking courses and managing your learning experience
 
 
-Usage
+Usage :
 Create a course by clicking the "Create Course" button in the navigation bar
 
 Manage users by clicking the "Users" button in the navigation bar
@@ -41,7 +41,7 @@ Manage grades and assignments by clicking the "Grades" button in the navigation 
 
 View your progress and take courses by clicking the "Courses" button in the navigation bar
 
-Features
+Features :
 
 User registration and login
 
