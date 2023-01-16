@@ -1216,25 +1216,34 @@ function avi_student(id) {
 
       findstudent = avisTab[i];
 
-      content = content + `    <li class="comment">
-          <div class="vcard bio">
-            <img src="images/person_1.jpg" alt="Image placeholder">
-          </div>
-          <div class="comment-body">
-          <h3 class="text-danger"> formation: ${searchobj(avisTab[i].formationId, 'formations').name}</h3>
-          
+      content = content + ` 
 
-        </div>
-          <div class="comment-body">
-            <h3 class="text-danger">Name professor: ${searchobj(avisTab[i].profId, 'users').Firstname} ${searchobj(avisTab[i].profId, 'users').Lastname}</h3>
-            <div class="meta "><h3 class="text-dark">avis: ${avisTab[i].myavis}</h3></div>
-  
+        <div class="item">
+        <div class="testimony-wrap py-4">
+          <div class="text">
+            <p class="star">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="mb-4">
+           Note: ${avisTab[i].note}
+            </p>
+            <p class="mb-4">
+           avis: ${avisTab[i].myavis}
+            </p>
+            <div class="d-flex align-items-center">
+              <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+              <div class="pl-3">
+                <p class="name"> ${searchobj(avisTab[i].profId, 'users').Firstname} ${searchobj(avisTab[i].profId, 'users').Lastname}</p>
+                <span class="position">${searchobj(avisTab[i].formationId, 'formations').name}</span>
+              </div>
+            </div>
           </div>
-          <div class="comment-body">
-          <div class="meta"><h3 class="text-dark">Note: ${avisTab[i].note}</h3></div>
-               
-           </div>
-        </li>
+        </div>
+      </div>
           
         
                       
@@ -1338,19 +1347,33 @@ function avi_forprof(id) {
 
       findprof = avis_Tabprof[i];
 
-      content = content + `<li class="comment">
-          <div class="vcard bio">
-            <img src="images/person_1.jpg" alt="Image placeholder">
+      content = content + `
+
+        <div class="item">
+        <div class="testimony-wrap py-1">
+          <div class="text">
+            <p class="star">
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </p>
+            <p class="mb-4">
+              Far far away, behind the word mountains, far from the
+              countries Vokalia and Consonantia, there live the blind
+              texts.
+            </p>
+            <div class="d-flex align-items-center">
+              <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+              <div class="pl-3">
+                <p class="name">${searchobj(avis_Tabprof[i].connected_student, 'users').Firstname}  ${searchobj(avis_Tabprof[i].connected_student, 'users').Lastname}</p>
+                <span class="position">${avis_Tabprof[i].myavisprof}</span>
+              </div>
+            </div>
           </div>
-          
-          <div class="comment-body">
-          <h3 class="text-danger"> Name student: ${searchobj(avis_Tabprof[i].connected_student, 'users').Firstname}  ${searchobj(avis_Tabprof[i].connected_student, 'users').Lastname}</h3>
-            <div class="meta "><h3 class="text-dark">avis : ${avis_Tabprof[i].myavisprof}</h3></div>
-          
-  
-          </div>
-          
-        </li>
+        </div>
+      </div>
           
                   
                       
